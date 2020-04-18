@@ -15,7 +15,7 @@ public class addbook {
 	public void launch() {
 		System.setProperty("webdriver.chrome.driver","chromedriver");
 		  driver = new ChromeDriver();
-		  driver.get("http://18.191.39.231:8080/");
+		  driver.get("http://18.222.179.14:8080/");
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	}
